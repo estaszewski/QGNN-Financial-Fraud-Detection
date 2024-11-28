@@ -1,5 +1,3 @@
-This is a project by Erik Staszewski under the supervision of David Redmond on behalf of Equal1, the aim of the project is to implement machine learning and quantum computing techniques for credit card fraud detection. 
+This is a project by Erik Staszewski under the supervision of David Redmond on behalf of Equal1, the aim of the project is to implement machine learning and quantum computing techniques for credit card fraud detection. The dataset used in this project contains transactions made by credit cards in September 2013 by European cardholders.
 
-The first half consists of a classical graph neural network, consisting of a GraphSAGE model. The second half consists of a quantum graph neural network. Results are measured using precision, recall, and f1-scores, and plotted using Receiver Operating Characteristic and Precision-Recall Curves.
-
-Please be patient for more!
+The first half of this project consists of a classical graph neural network, consisting of a model using 3 GraphSAGE layers. The second half consists of a quantum graph neural network. The models are run through 100 epochs. Results are measured and compared using precision, recall, and f1-scores, and plotted using Receiver Operating Characteristic and Precision-Recall Curves.
