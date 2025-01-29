@@ -27,19 +27,13 @@ The project focuses on constructing a Graph Neural Network (GNN) and Quantum Gra
 
 **Architecture**
 
-- The model is based on GNNs, using GraphSAGE and GCN/SGConv for neighborhood aggregation and feature learning.
-- Quantum Computing is integrated through a QGNN, which incorporates a quantum processing layer to explore potential advantages in feature transformations and data entanglement.
-- The quantum layer uses parameterized quantum circuits (PQC) with RX and RY gates to encode features.
-
-**Training Pipeline**
-
 - GNN Model:
   - Uses GraphSAGE as the main convolutional layer.
   - Trained for 100 epochs, optimizing with Adam optimizer and BCELoss for fraud detection.
   - Employs batch normalization and adaptive pooling to stabilize training and ensure scalability.
  
 <div align="center">
-  <img src="./figures/GNNarchitecture.png" style="width: 100%;"/>
+  <img src="./figures/GNNarchitecture.png" style="width: 80%;"/>
 </div>
 
 - QGNN Model:
@@ -47,3 +41,6 @@ The project focuses on constructing a Graph Neural Network (GNN) and Quantum Gra
   - Training uses gradient-based updates using the parameter shift rule, allowing backpropagation through quantum gates.
   - Explores quantum entanglement and multi-qubit extensions to test their impact on learning performance.
 
+<div align="center">
+  <img src="./figures/QGNNarchitecture.png" style="width: 80%;"/>
+</div>
