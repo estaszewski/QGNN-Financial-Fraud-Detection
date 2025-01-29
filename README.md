@@ -23,24 +23,27 @@ The project focuses on constructing a Graph Neural Network (GNN) and Quantum Gra
   <img src="./figures/benchmark.png" style="width: 70%;"/>
 </div>
 
-## 2. Model Summary
+## 2. Model Architecture
 
-**Architecture**
+**GNN Model**
 
-- GNN Model:
-  - Uses GraphSAGE as the main convolutional layer.
-  - Trained for 100 epochs, optimizing with Adam optimizer and BCELoss for fraud detection.
-  - Employs batch normalization and adaptive pooling to stabilize training and ensure scalability.
+- Uses 3 GraphSAGE convolutional layers, each followed by batch normalization to stabilize training.
+- Uses GeLU activation, enhancing non-linearity.
+- The dense layer maps the embeddings to a single scalar output, followed by a sigmoid activation for binary fraud classification.
+- Trained for 100 epochs, optimized using Adam with binary cross-entropy loss (BCELoss).
  
 <div align="center">
-  <img src="./figures/GNNarchitecture.png" style="width: 80%;"/>
+  <img src="./figures/GNNarchitecture.png" style="height: 150px;"/>
 </div>
 
-- QGNN Model:
-  - Uses Quantum Circuits with 1-qubit RX, RY gates.
-  - Training uses gradient-based updates using the parameter shift rule, allowing backpropagation through quantum gates.
-  - Explores quantum entanglement and multi-qubit extensions to test their impact on learning performance.
+**QGNN Model**
+
+- Uses a hybrid quantum-classical approach, incorporating an SGConv layer for initial feature extraction.
+- Quantum computation is performed with a single-qubit quantum layer, consisting of RX and RY gates, followed by pooling and a fully connected layer.
+- Uses ReLU activation before the quantum layer to maintain expressiveness in classical feature extraction.
+- Training uses gradient-based updates with the parameter shift rule, ensuring proper backpropagation through the quantum circuit.
+- Trained for 200 epochs, optimized using Adam with binary cross-entropy loss (BCELoss).
 
 <div align="center">
-  <img src="./figures/QGNNarchitecture.png" style="width: 80%;"/>
+  <img src="./figures/QGNNarchitecture.png" style="height: 120px;"/>
 </div>
