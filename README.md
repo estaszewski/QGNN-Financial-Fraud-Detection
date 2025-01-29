@@ -20,7 +20,7 @@ This project, by Erik Staszewski under the supervision of David Redmond for Equa
 The project focuses on constructing a Graph Neural Network (GNN) and Quantum Graph Neural Network (QGNN) for binary classification of fraudulent and non-fraudulent credit card transactions. Results are measured and compared using precision, recall, and $F_1$-scores, and plotted using Receiver Operating Characteristic and Precision-Recall Curves.
 
 <div align="center">
-  <img src="./figures/benchmark.png" style="width: 80%;"/>
+  <img src="./figures/benchmark.png" style="width: 50%;"/>
 </div>
 
 ## 2. Model Summary
@@ -37,6 +37,11 @@ The project focuses on constructing a Graph Neural Network (GNN) and Quantum Gra
   - Uses GraphSAGE as the main convolutional layer.
   - Trained for 100 epochs, optimizing with Adam optimizer and BCELoss for fraud detection.
   - Employs batch normalization and adaptive pooling to stabilize training and ensure scalability.
+ 
+<div align="center">
+  <img src="./figures/GNNarchitecture.png" style="width: 100%;"/>
+</div>
+
 - QGNN Model:
   - Uses Quantum Circuits with 1-qubit RX, RY gates.
   - Training uses gradient-based updates using the parameter shift rule, allowing backpropagation through quantum gates.
