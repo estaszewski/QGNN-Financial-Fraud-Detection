@@ -4,7 +4,7 @@
 
 <a name="top"></a>
 <div align="center">
-  <img src="./equal1.png" style="width: 200px;"/>
+  <img src="./figures/equal1.png" style="width: 200px;"/>
 </div>
 
 ---
