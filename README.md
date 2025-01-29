@@ -19,6 +19,10 @@ This project, by Erik Staszewski under the supervision of David Redmond for Equa
 
 The project focuses on constructing a Graph Neural Network (GNN) and Quantum Graph Neural Network (QGNN) for binary classification of fraudulent and non-fraudulent credit card transactions. Results are measured and compared using precision, recall, and $F_1$-scores, and plotted using Receiver Operating Characteristic and Precision-Recall Curves.
 
+<div align="center">
+  <img src="./figures/benchmark.png" style="width: 80%;"/>
+</div>
+
 ## 2. Model Summary
 
 **Architecture**
