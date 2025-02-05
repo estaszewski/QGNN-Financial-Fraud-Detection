@@ -15,7 +15,7 @@
 
 ## Work in Progress
 
-This project is still being developed. Results may evolve as improvements are made. Contributions and feedback are welcome.
+This project is still WIP. Results may evolve as improvements are made. Feedback is welcome.
 
 ## 1. Introduction
 
