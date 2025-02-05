@@ -13,6 +13,10 @@
    <a href="mailto:erik.staszewski@gmail.com"><b>Email Me</b></a> | <a href="https://www.linkedin.com/in/estaszewski/"><b>My LinkedIn</b></a> | <a href="https://equal1.com/"><b>Equal1 Site</b></a>
 </div>
 
+## Work in Progress
+
+This project is still being developed. Results may evolve as improvements are made. Contributions and feedback are welcome.
+
 ## 1. Introduction
 
 This project, by Erik Staszewski under the supervision of David Redmond for Equal1, seeks to implement and extend quantum computing techniques for credit card fraud detection.
