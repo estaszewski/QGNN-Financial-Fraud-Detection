@@ -56,13 +56,13 @@ The project focuses on constructing a Graph Neural Network (GNN) and Quantum Gra
 
 <div align="center">
 
-|  | Metric | GNN (GraphSAGE) | QGNN (GCN) | QGNN (SGConv) |
-|---|-------------------|--------|--------|--------|
-| | Precision Score | 0.8645 | **0.8671** | 0.8662 |
-| | Recall Score | 0.8221 | **0.8405** | 0.8344 |
-| | $F_1$ Score | 0.8428 | **0.8536** | 0.8500 |
-| | ROC AUC | 0.9541 | 0.9237 | **0.9652** |
-| | PR AUC | 0.7843 | 0.7851 | **0.8076** |
+| Metric | GNN (GraphSAGE) | QGNN (GCN) | QGNN (SGConv) |
+|-------------------|--------|--------|--------|
+| Precision Score | 0.8645 | **0.8671** | 0.8662 |
+| Recall Score | 0.8221 | **0.8405** | 0.8344 |
+| $F_1$ Score | 0.8428 | **0.8536** | 0.8500 |
+| ROC AUC | 0.9541 | 0.9237 | **0.9652** |
+| PR AUC | 0.7843 | 0.7851 | **0.8076** |
 
 </div>
 
