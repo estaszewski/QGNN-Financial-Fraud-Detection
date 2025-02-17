@@ -51,3 +51,27 @@ The project focuses on constructing a Graph Neural Network (GNN) and Quantum Gra
 <div align="center">
   <img src="./figures/QGNNarchitecture.png" style="height: 120px;"/>
 </div>
+
+## 3. Results
+
+<div align="center">
+
+|  | Metric | GNN (GraphSAGE) | QGNN (GCN) | QGNN (SGConv) |
+|---|-------------------|--------|--------|--------|
+| | Precision Score | 0.8645 | **0.8671** | 0.8662 |
+| | Recall Score | 0.8221 | **0.8405** | 0.8344 |
+| | $F_1$ Score | 0.8428 | **0.8536** | 0.8500 |
+| | ROC AUC | 0.9541 | 0.9237 | **0.9652** |
+| | PR AUC | 0.7843 | 0.7851 | **0.8076** |
+
+</div>
+
+The charts below compare the GNN (GraphSAGE) results with the QGNN (SGConv) results. SGConv was chosen over GCN because it outperformed GNN in all five metrics, while GCN only outperformed GNN in three metrics.
+
+<div align="center">
+  <img src="./figures/AUC_ROC.png" style="width: 1000px;"/>
+</div>
+
+<div align="center">
+  <img src="./figures/AUC_PR.png" style="width: `000px;"/>
+</div>
