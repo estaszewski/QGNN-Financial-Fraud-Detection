@@ -19,9 +19,9 @@ This project is still WIP. Results may evolve as improvements are made. Feedback
 
 ## 1. Introduction
 
-This project, by Erik Staszewski under the supervision of David Redmond for Equal1, seeks to implement and extend quantum computing techniques for credit card fraud detection.
+This project, by Erik Staszewski under the supervision of David Redmond for Equal1, seeks to implement and extend quantum computing techniques for credit card fraud detection. The primary objective is to construct and compare the performance of a classical Graph Neural Network (GNN) with a Quantum Graph Neural Network (QGNN) for binary classification of fraudulent and non-fraudulent credit card transactions. 
 
-The project focuses on constructing a Graph Neural Network (GNN) and Quantum Graph Neural Network (QGNN) for binary classification of fraudulent and non-fraudulent credit card transactions. Results are measured and compared using precision, recall, and $F_1$-scores, and plotted using Receiver Operating Characteristic and Precision-Recall Curves.
+Performance is evaluated using precision, recall, and $F_1$-scores, and plotted using Receiver Operating Characteristic (ROC) and Precision-Recall (PR) Curves.
 
 <div align="center">
   <img src="./figures/benchmark.png" style="width: 70%;"/>
@@ -66,7 +66,7 @@ The project focuses on constructing a Graph Neural Network (GNN) and Quantum Gra
 
 </div>
 
-The charts below compare the GNN (GraphSAGE) results with the QGNN (SGConv) results. SGConv was chosen over GCN because it outperformed GNN in all five metrics, while GCN only outperformed GNN in three metrics.
+The charts below compare the GNN (GraphSAGE) and QGNN (SGConv) models. SGConv was selected as the preferred QGNN architecture because it outperformed GNN across all five metrics, while GCN outperformed the classical GNN in only three metrics.
 
 <div align="center">
   <img src="./figures/AUC_ROC.png" style="width: 1000px;"/>
