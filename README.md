@@ -17,7 +17,7 @@
 
 This project is still WIP. Results may evolve as improvements are made. Feedback is welcome.
 
-I am currently implementing Focal Loss and running the model, it is showing far better results at an earlier stage, hopefully improved results are out by tonight or tomorrow!
+I am currently implementing Focal Loss and running the model (GCN Focal 200 epochs), it is showing far better results at an earlier stage, hopefully improved results are out by tonight or tomorrow! After that, I will run the newer model (SGConv Focal 200 epochs), and post results. 
 
 ## 1. Introduction
 
