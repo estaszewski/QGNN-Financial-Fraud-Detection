@@ -17,6 +17,8 @@
 
 This project is still WIP. Results may evolve as improvements are made. Feedback is welcome.
 
+I am currently implementing Focal Loss and running the model, it is showing far better results at an earlier stage, hopefully improved results are out by tonight or tomorrow!
+
 ## 1. Introduction
 
 This project, by Erik Staszewski under the supervision of David Redmond for Equal1, seeks to implement and extend quantum computing techniques for credit card fraud detection. The primary objective is to construct and compare the performance of a classical Graph Neural Network (GNN) with a Quantum Graph Neural Network (QGNN) for binary classification of fraudulent and non-fraudulent credit card transactions. 
