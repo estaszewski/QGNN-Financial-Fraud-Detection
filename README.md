@@ -17,6 +17,8 @@
 
 This project is still WIP. Results may evolve as improvements are made. Feedback is welcome.
 
+Please note that the write-up for the QGNN and Comparison sections will be finalized after the results are finalized.
+
 I am currently implementing Focal Loss and running the model (GCN Focal 200 epochs), it is showing far better results at an earlier stage, hopefully improved results are out by tonight or tomorrow! After that, I will run the newer model (SGConv Focal 200 epochs), and post results. 
 
 ## 1. Introduction
